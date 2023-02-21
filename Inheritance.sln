@@ -14,6 +14,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Academy", "D:\C++\Academy\A
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Files", "Files\Files.vcxproj", "{8FBEF4D8-0CCF-4533-9E34-D075B6C2EFE2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IP_MAC", "IP_MAC\IP_MAC.vcxproj", "{3FE7743D-A145-44F8-A8DF-2D38BD8B310D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -46,6 +48,14 @@ Global
 		{8FBEF4D8-0CCF-4533-9E34-D075B6C2EFE2}.Release|x64.Build.0 = Release|x64
 		{8FBEF4D8-0CCF-4533-9E34-D075B6C2EFE2}.Release|x86.ActiveCfg = Release|Win32
 		{8FBEF4D8-0CCF-4533-9E34-D075B6C2EFE2}.Release|x86.Build.0 = Release|Win32
+		{3FE7743D-A145-44F8-A8DF-2D38BD8B310D}.Debug|x64.ActiveCfg = Debug|x64
+		{3FE7743D-A145-44F8-A8DF-2D38BD8B310D}.Debug|x64.Build.0 = Debug|x64
+		{3FE7743D-A145-44F8-A8DF-2D38BD8B310D}.Debug|x86.ActiveCfg = Debug|Win32
+		{3FE7743D-A145-44F8-A8DF-2D38BD8B310D}.Debug|x86.Build.0 = Debug|Win32
+		{3FE7743D-A145-44F8-A8DF-2D38BD8B310D}.Release|x64.ActiveCfg = Release|x64
+		{3FE7743D-A145-44F8-A8DF-2D38BD8B310D}.Release|x64.Build.0 = Release|x64
+		{3FE7743D-A145-44F8-A8DF-2D38BD8B310D}.Release|x86.ActiveCfg = Release|Win32
+		{3FE7743D-A145-44F8-A8DF-2D38BD8B310D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
