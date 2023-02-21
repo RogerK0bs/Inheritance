@@ -2,8 +2,9 @@
 
 void main()
 {
-	char symbol = ' ';
 	const int SIZE = 1024;
+	
+	char symbol = ' ';
 	ofstream fout;
 	fout.open("201 ready.txt");
 	ifstream fin;
@@ -23,12 +24,16 @@ void main()
 	}
 	for (size_t i = 0; i < 12; i++)
 	{
-		char* buffer;
+		
 		while (!fin.eof())
 		{
-			if (fin.eof() != symbol)fin.getline(buffer,SIZE);
+			char* buffer;
+			if (fin.eof() != symbol)
+			{
+				fin.getline(buffer, SIZE);
+				cout << buffer << "\t";
+			}
 		}
-
 	}
 
 	
