@@ -37,6 +37,17 @@ void main()
 					}
 				}
 			}fout << "\n";
+			ofstream fout_dhcpd;
+			fout_dhcpd.open("201.dhcpd", std::ios_base::app);
+			for (size_t d = 0; d < 12; d++)
+			{
+				fout_dhcpd << "host 201-" << d + 1<<"\n{" << endl;
+				fout_dhcpd << "\t\thardware ethernet\t\t" << mac_copy<<endl;
+				fout_dhcpd << "\t\tfixed-address\t\t" << ip_copy << endl;
+				fout_dhcpd << "}\n\n";
+			}
+
+			fout_dhcpd.close();
 		}
 	}
 	else
@@ -45,4 +56,5 @@ void main()
 	}
 	fin.close();
 	fout.close();
+	
 }
