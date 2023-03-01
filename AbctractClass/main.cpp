@@ -10,6 +10,7 @@ enum Color
 };
 class Shape
 {
+protected:
 	Color color;
 	
 public:
@@ -45,8 +46,9 @@ public:
 	}
 
 };
-class circle :Shape // круг
+class circle:Shape // круг
 {
+	Color color;
 	const double pi = 3.14; // число Пи
 	double R; // Радиус 
 public:
@@ -54,7 +56,7 @@ public:
 	{
 		return 2 * pi * R;
 	}
-	double get_area()const
+	double get_area()const // Площадь периметра
 	{
 		return (pow(get_perimetr(), 2) / 4 * pi); // Площадь через периметр
 	}
@@ -104,6 +106,4 @@ public:
 void main()
 {
 	setlocale(LC_ALL, "");
-	circle a1;
-	cout <<"Периметр огружности = " << a1.get_perimetr() << endl;
 }
